@@ -1,26 +1,26 @@
-.part1{
-    display: flex;
-    
-}
-.part2{
-    display: flex;
-}
-.part3{
+.part1 {
     display: flex;
 }
 
+.part2 {
+    display: flex;
+}
 
-.box{
+.part3 {
+    display: flex;
+}
+
+.box {
     height: 400px;
     width: 400px;
     background-image: url(Rain\ 4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
+
 }
 
-.img{
+.img {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -29,7 +29,7 @@
     display: none;
 }
 
-.img2{
+.img2 {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -41,13 +41,13 @@
 
 
 
-button{
+button {
     font-size: 20px;
     border: 1px groove rgb(74, 45, 128);
 }
 
 @media only screen and (max-width: 768px) {
-    .box{
+    .box {
         height: 600px;
         width: 100%;
         background-image: url(Rain\ 4.jpg);
@@ -55,15 +55,16 @@ button{
         background-size: cover;
         position: relative;
     }
-    
+
 }
 
 @media only screen and (max-width: 480px) {
 
-    .main{
+    .main {
         display: block;
     }
-    .box{
+
+    .box {
         height: 400px;
         width: 400px;
         background-image: url(Rain\ 4.jpg);
@@ -71,6 +72,5 @@ button{
         background-size: cover;
         position: relative;
     }
-    
-}
 
+}
