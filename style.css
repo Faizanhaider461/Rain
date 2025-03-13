@@ -1,0 +1,50 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-image: url(Rain\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+
+button{
+    font-size: 20px;
+    border: 1px groove rgb(74, 45, 128);
+}
+
+@media only screen and (max-width: 768px) {
+    .box{
+        height: 600px;
+        width: 100%;
+        background-image: url(Rain\ 4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .box{
+        height: 400px;
+        width: 400px;
+        background-image: url(Rain\ 4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+}
+
